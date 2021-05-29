@@ -9,9 +9,3 @@ string CPP::toString(){
 	string errors=to_string(this->numErrores);
 	return "Nombre: "+this->nombre+"Autor: "+this->autor+"Lineas: "+lines+" Errores: "+errors;
 }
-int CPP::getLineas(){
-	return this->lineasCodigo;
-}
-int CPP::getError(){
-	return this->numErrores;
-}

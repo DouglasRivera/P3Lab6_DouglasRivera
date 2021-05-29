@@ -13,7 +13,7 @@ class Directorio : public FileSystemNode
 {
 	
 	public:
-		~Directorio();
+		
 		Directorio(string,string,FileSystemNode*);
 		void impresionRecursivo(int);
 		void agregarArchivos(FileSystemNode*);
